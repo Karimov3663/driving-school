@@ -1,0 +1,54 @@
+.Canteiner{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(2, 13, 48);
+    color: antiquewhite;
+    height: 70px;
+    width: 100%;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    min-width: 40%;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.Navbar-text{
+    text-decoration: none;
+    color: white;
+    width: 13%;
+}
+.Navbar-text:active{
+    color: aqua;
+}
+.Navbar-text:hover{
+    font-size: 25px;
+    transition: 0.5s;
+    color: aqua;
+}
+.Avtomaktab{
+    display: inline-block;
+    width: 33%;
+}
+.Navbar-text-avtomaktab{
+    height: 70px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    padding-left: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+}
+.card-left{
+    width: 20%;
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.Navbar-text-left{
+    padding-left: 250px;
+}
